@@ -1,4 +1,4 @@
-# Rtextrankkr
+# Rtextrankr
 TextRank for Korean in R lang by [@mikigom](https://twitter.com/MikiBear_)
 
 R version package for [textrankr](https://github.com/theeluwin/textrankr) python package
