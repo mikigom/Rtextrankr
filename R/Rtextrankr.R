@@ -8,8 +8,9 @@
 #' @import igraph
 #' @import KoNLP
 #' @import foreach
-#' @import sets
 #' @import stringi
+#' @importFrom sets gset
+#' @importFrom utils capture.output combn
 
 .onAttach <- function(libname, pkgname) {
   packageStartupMessage("Rtextrankr 0.1.0")
@@ -327,8 +328,8 @@ co_occurence <- function(sentence1, sentence2) {
   bow1 <- table2gset(sentence2table(sentence1))
   bow2 <- table2gset(sentence2table(sentence2))
 
-  p <- sum(gset_memberships(bow1 & bow2))
-  q <- sum(gset_memberships(bow1 | bow2))
+  p <- sum(sets::gset_memberships(bow1 & bow2))
+  q <- sum(sets::gset_memberships(bow1 | bow2))
 
   if (q == 0)
     return(0) else return(p/q)
