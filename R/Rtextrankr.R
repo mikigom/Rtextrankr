@@ -6,11 +6,11 @@
 #' @export build_graph
 #' @export summarize
 #' @import igraph
-#' @import KoNLP
 #' @import foreach
 #' @import stringi
 #' @importFrom sets gset
 #' @importFrom utils capture.output combn
+#' @importFrom KoNLP extractNoun
 
 .onAttach <- function(libname, pkgname) {
   packageStartupMessage("Rtextrankr 0.1.0")
