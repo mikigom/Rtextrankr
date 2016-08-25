@@ -19,7 +19,13 @@ Collate:
     'Rtextrankkr.R'
 ```
 
-## Example
+## Install & Get Start
+```R
+install.packages("Rtextrankr")
+library(Rtextrankr)
+```
+
+## Usage & Example
 ```R
 > example_text = "18세기 초부터 약 한 세기 동안 영국의 경험주의 철학자들이 발전시킨 미의 이론인 취미론은 미를 객관적이고 형식적인 성질, 예를 들어 비례와 같은 것으로 이해하였던 전통적인 미론과는 근본적으로 다른 것이었다. 
 취미론에 속하는 이론가들은 상이한 개념이나 취지로 다양한 주장들을 전개했지만, 이것들로부터 다음과 같은 몇 가지 공통 요소들을 도출할 수 있다.
