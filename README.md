@@ -21,7 +21,9 @@ Collate:
 
 ## Install & Get Start
 ```R
-install.packages("Rtextrankr")
+install.packages('devtools')
+library(devtools)
+install_github('Rtextrankr', 'mikigom')
 library(Rtextrankr)
 ```
 
