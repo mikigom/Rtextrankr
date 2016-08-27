@@ -8,9 +8,9 @@ Reorder sentences for Korean text using TextRank algorithm.
 ## Enviroment & Dependency
 ```
 Depends:
-    R (>= 3.0.2)
+    R (>= 3.0.2),
+    KoNLP (>= 0.76.9)
 Imports:
-    KoNLP (>= 0.76.9),
     igraph (>= 1.0.1),
     sets (>= 1.0-16),
     foreach (>= 1.4.3),
