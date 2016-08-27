@@ -5,23 +5,9 @@
 
 ## R CMD check results
 
-0 errors | 0 warnings | 1 note
+0 errors | 0 warnings | 0 note
 
-* This is a new release.
-
-```
-build_graph: no visible binding for global variable ‘sentence’
-Undefined global functions or variables:
-  sentence
-```
-The above note is from the following 'foreach' loop. This note is inevitable but not fatal.
-
-```R
-invisible(capture.output(foreach::foreach(sentence = sentences) %do%
-{
-  graph <- graph + vertices(sentence)
-}))
-```
+* This is a new release and re-submit. There is no special note.
 
 ## Reverse dependencies
 

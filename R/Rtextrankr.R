@@ -7,10 +7,9 @@
 #' @export summarize
 #' @import KoNLP
 #' @import igraph
-#' @import foreach
 #' @import stringi
 #' @importFrom sets gset
-#' @importFrom utils capture.output combn
+#' @importFrom utils capture.output combn globalVariables
 
 .onAttach <- function(libname, pkgname) {
   packageStartupMessage("Rtextrankr 1.0.0")
@@ -374,10 +373,11 @@ get_sentences <- function(text) {
 #' @return The igraph graph which refers relationship of sentences.
 build_graph <- function(sentences) {
   graph <- make_empty_graph()
-  invisible(capture.output(foreach::foreach(sentence = sentences) %do%
-  {
-    graph <- graph + vertices(sentence)
-  }))
+  invisible(capture.output(
+    for(sentence in sentences){
+      graph <- graph + vertices(sentence)
+    }
+  ))
 
   pairs <- t(combn(as.vector(sentences), 2))
 
