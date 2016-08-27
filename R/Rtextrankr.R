@@ -5,12 +5,12 @@
 #' @export get_sentences
 #' @export build_graph
 #' @export summarize
+#' @import KoNLP
 #' @import igraph
 #' @import foreach
 #' @import stringi
 #' @importFrom sets gset
 #' @importFrom utils capture.output combn
-#' @importFrom KoNLP extractNoun
 
 .onAttach <- function(libname, pkgname) {
   packageStartupMessage("Rtextrankr 0.1.0")
@@ -295,6 +295,7 @@ sentence2table <- function(sentence) {
                  "\uc544\ud649","\ub839","\uc601"
   )
 
+  requireNamespace("KoNLP", quietly = TRUE)
   nouns <- KoNLP::extractNoun(sentence)
   stopword <- list()
 
