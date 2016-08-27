@@ -19,7 +19,7 @@ Collate:
     'Rtextrankkr.R'
 ```
 
-## Install & Get Start
+## Install & Get Started
 ```R
 install.packages('devtools')
 library(devtools)
