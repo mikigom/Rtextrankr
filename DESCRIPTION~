@@ -1,7 +1,7 @@
 Package: Rtextrankr
 Type: Package
 Title: TextRank for Korean
-Version: 1.0.0
+Version: 0.1.0
 Date: 2016-8-25
 Author: Junghoon Seo
 Maintainer: Junghoon Seo <s3213403@gmail.com>

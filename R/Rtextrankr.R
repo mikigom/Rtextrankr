@@ -13,7 +13,7 @@
 #' @importFrom utils capture.output combn
 
 .onAttach <- function(libname, pkgname) {
-  packageStartupMessage("Rtextrankr 0.1.0")
+  packageStartupMessage("Rtextrankr 1.0.0")
 }
 
 #' Separate text into sentence list by delimiter.
