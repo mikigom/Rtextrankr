@@ -17,7 +17,7 @@
 }
 
 #' Separate text into sentence list by delimiter.
-#' Example will be shown in \href{https://github.com/mikigom/Rtextrankr}{github}.
+#' Example will be shown in \href{https://github.com/mikigom/Rtextrankkr}{github}.
 #'
 #' @param text The long character string including delimiter([.|!|?|blank line]).
 #' @return The list of character string seperated by delimiter.
@@ -26,7 +26,7 @@ xplit <- function(text) {
 }
 
 #' Convert sentence to noun word table except stopword.
-#' Example will be shown in \href{https://github.com/mikigom/Rtextrankr}{github}.
+#' Example will be shown in \href{https://github.com/mikigom/Rtextrankkr}{github}.
 #'
 #' @param sentence The character string.
 #' @return A table which refers noun word frequency, except Korean stopword.
@@ -309,7 +309,7 @@ sentence2table <- function(sentence) {
 }
 
 #' Convert sentence to word table except stopword.
-#' Example will be shown in \href{https://github.com/mikigom/Rtextrankr}{github}.
+#' Example will be shown in \href{https://github.com/mikigom/Rtextrankkr}{github}.
 #'
 #' @param table A table which refers word frequency.
 #' @return A generalized set which refers word frequency.
@@ -318,7 +318,7 @@ table2gset <- function(table) {
 }
 
 #' Calculate a Jaccard Index between two sentences.
-#' Example will be shown in \href{https://github.com/mikigom/Rtextrankr}{github}.
+#' Example will be shown in \href{https://github.com/mikigom/Rtextrankkr}{github}.
 #'
 #' @param sentence1 The first character string.
 #' @param sentence2 The second character string.
@@ -337,7 +337,7 @@ co_occurence <- function(sentence1, sentence2) {
 }
 
 #' Make character string list which ends with a period, from the whole text.
-#' Example will be shown in \href{https://github.com/mikigom/Rtextrankr}{github}.
+#' Example will be shown in \href{https://github.com/mikigom/Rtextrankkr}{github}.
 #'
 #' @param text The long character string including delimiter([.|!|?|blank line]).
 #' @return The list of character string which ends with a period.
@@ -368,7 +368,7 @@ get_sentences <- function(text) {
 
 #' Make a graph which refers relationship of sentences.
 #' Vertex refers one sentence, and edge refers co-occurence between two sentences.
-#' Example will be shown in \href{https://github.com/mikigom/Rtextrankr}{github}.
+#' Example will be shown in \href{https://github.com/mikigom/Rtextrankkr}{github}.
 #'
 #' @param sentences The list of character string.
 #' @return The igraph graph which refers relationship of sentences.
@@ -392,7 +392,7 @@ build_graph <- function(sentences) {
 }
 
 #' Return list of character string of the most important sentences by Textrank algorithm.
-#' Example will be shown in \href{https://github.com/mikigom/Rtextrankr}{github}.
+#' Example will be shown in \href{https://github.com/mikigom/Rtextrankkr}{github}.
 #'
 #' @param text The long character string including delimiter([.|!|?|blank line]).
 #' @param count The number of summarized sentences.
