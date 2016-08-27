@@ -325,7 +325,6 @@ table2gset <- function(table) {
 #' @references Tan, Pang-Ning; Steinbach, Michael; Kumar, Vipin (2005), Introduction to Data Mining, ISBN 0-321-32136-7.
 co_occurence <- function(sentence1, sentence2) {
   bow1 <- table2gset(sentence2table(sentence1))
-  bow1 <- table2gset(sentence2table(sentence1))
   bow2 <- table2gset(sentence2table(sentence2))
 
   p <- sum(sets::gset_memberships(bow1 & bow2))
