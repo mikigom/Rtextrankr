@@ -3,7 +3,7 @@
 \name{table2gset}
 \alias{table2gset}
 \title{Convert sentence to word table except stopword.
-Example will be shown in \href{https://github.com/mikigom/Rtextrankkr}{github}.}
+Example will be shown in \href{https://github.com/mikigom/Rtextrankr}{github}.}
 \usage{
 table2gset(table)
 }
@@ -15,6 +15,6 @@ A generalized set which refers word frequency.
 }
 \description{
 Convert sentence to word table except stopword.
-Example will be shown in \href{https://github.com/mikigom/Rtextrankkr}{github}.
+Example will be shown in \href{https://github.com/mikigom/Rtextrankr}{github}.
 }
 

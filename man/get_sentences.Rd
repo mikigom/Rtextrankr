@@ -3,7 +3,7 @@
 \name{get_sentences}
 \alias{get_sentences}
 \title{Make character string list which ends with a period, from the whole text.
-Example will be shown in \href{https://github.com/mikigom/Rtextrankkr}{github}.}
+Example will be shown in \href{https://github.com/mikigom/Rtextrankr}{github}.}
 \usage{
 get_sentences(text)
 }
@@ -15,6 +15,6 @@ The list of character string which ends with a period.
 }
 \description{
 Make character string list which ends with a period, from the whole text.
-Example will be shown in \href{https://github.com/mikigom/Rtextrankkr}{github}.
+Example will be shown in \href{https://github.com/mikigom/Rtextrankr}{github}.
 }
 

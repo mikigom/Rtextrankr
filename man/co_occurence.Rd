@@ -3,7 +3,7 @@
 \name{co_occurence}
 \alias{co_occurence}
 \title{Calculate a Jaccard Index between two sentences.
-Example will be shown in \href{https://github.com/mikigom/Rtextrankkr}{github}.}
+Example will be shown in \href{https://github.com/mikigom/Rtextrankr}{github}.}
 \usage{
 co_occurence(sentence1, sentence2)
 }
@@ -17,7 +17,7 @@ a Jaccard Index between two sentences by generalized set of noun word.
 }
 \description{
 Calculate a Jaccard Index between two sentences.
-Example will be shown in \href{https://github.com/mikigom/Rtextrankkr}{github}.
+Example will be shown in \href{https://github.com/mikigom/Rtextrankr}{github}.
 }
 \references{
 Tan, Pang-Ning; Steinbach, Michael; Kumar, Vipin (2005), Introduction to Data Mining, ISBN 0-321-32136-7.

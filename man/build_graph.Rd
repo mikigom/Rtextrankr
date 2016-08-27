@@ -4,7 +4,7 @@
 \alias{build_graph}
 \title{Make a graph which refers relationship of sentences.
 Vertex refers one sentence, and edge refers co-occurence between two sentences.
-Example will be shown in \href{https://github.com/mikigom/Rtextrankkr}{github}.}
+Example will be shown in \href{https://github.com/mikigom/Rtextrankr}{github}.}
 \usage{
 build_graph(sentences)
 }
@@ -17,6 +17,6 @@ The igraph graph which refers relationship of sentences.
 \description{
 Make a graph which refers relationship of sentences.
 Vertex refers one sentence, and edge refers co-occurence between two sentences.
-Example will be shown in \href{https://github.com/mikigom/Rtextrankkr}{github}.
+Example will be shown in \href{https://github.com/mikigom/Rtextrankr}{github}.
 }
 

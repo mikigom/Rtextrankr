@@ -3,7 +3,7 @@
 \name{summarize}
 \alias{summarize}
 \title{Return list of character string of the most important sentences by Textrank algorithm.
-Example will be shown in \href{https://github.com/mikigom/Rtextrankkr}{github}.}
+Example will be shown in \href{https://github.com/mikigom/Rtextrankr}{github}.}
 \usage{
 summarize(text, count)
 }
@@ -17,7 +17,7 @@ The list of character string of the most important sentences by Textrank algorit
 }
 \description{
 Return list of character string of the most important sentences by Textrank algorithm.
-Example will be shown in \href{https://github.com/mikigom/Rtextrankkr}{github}.
+Example will be shown in \href{https://github.com/mikigom/Rtextrankr}{github}.
 }
 \references{
 Mihalcea, R., & Tarau, P. (2004, July). TextRank: Bringing order into texts. Association for Computational Linguistics.

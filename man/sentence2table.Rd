@@ -3,7 +3,7 @@
 \name{sentence2table}
 \alias{sentence2table}
 \title{Convert sentence to noun word table except stopword.
-Example will be shown in \href{https://github.com/mikigom/Rtextrankkr}{github}.}
+Example will be shown in \href{https://github.com/mikigom/Rtextrankr}{github}.}
 \usage{
 sentence2table(sentence)
 }
@@ -15,6 +15,6 @@ A table which refers noun word frequency, except Korean stopword.
 }
 \description{
 Convert sentence to noun word table except stopword.
-Example will be shown in \href{https://github.com/mikigom/Rtextrankkr}{github}.
+Example will be shown in \href{https://github.com/mikigom/Rtextrankr}{github}.
 }
 

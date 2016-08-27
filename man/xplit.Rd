@@ -3,7 +3,7 @@
 \name{xplit}
 \alias{xplit}
 \title{Separate text into sentence list by delimiter.
-Example will be shown in \href{https://github.com/mikigom/Rtextrankkr}{github}.}
+Example will be shown in \href{https://github.com/mikigom/Rtextrankr}{github}.}
 \usage{
 xplit(text)
 }
@@ -15,6 +15,6 @@ The list of character string seperated by delimiter.
 }
 \description{
 Separate text into sentence list by delimiter.
-Example will be shown in \href{https://github.com/mikigom/Rtextrankkr}{github}.
+Example will be shown in \href{https://github.com/mikigom/Rtextrankr}{github}.
 }
 
