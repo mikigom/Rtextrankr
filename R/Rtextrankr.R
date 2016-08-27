@@ -9,7 +9,7 @@
 #' @import igraph
 #' @import stringi
 #' @importFrom sets gset
-#' @importFrom utils capture.output combn globalVariables
+#' @importFrom utils capture.output combn
 
 .onAttach <- function(libname, pkgname) {
   packageStartupMessage("Rtextrankr 1.0.0")
