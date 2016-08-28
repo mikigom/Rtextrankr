@@ -20,11 +20,6 @@ Collate:
 
 ## Install & Get Started
 ```R
-install.packages('Rtextrankr')
-library(Rtextrankr)
-```
-or,
-```R
 install.packages('devtools')
 library(devtools)
 install_github('Rtextrankr', 'mikigom')
